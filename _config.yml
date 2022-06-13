@@ -1,1 +1,23 @@
-theme: jekyll-theme-architect
+# Site settings
+title: Aryaman Prakash
+subtitle: The Artist
+email: rishu.m12@gmail.com
+description: "Aryaman Prakash's website"
+baseurl: ""
+url: "https://prakasharyaman.github.io"
+twitter_username: prakasharyaman
+github_username:  prakasharyaman
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["node_modules"]
+
+analytics :
+  provider : google
+  google:
+    tracking_id : 'UA-12212233-2'
+  getclicky :
+    site_id
